@@ -37,9 +37,9 @@ One of us (Liam) combined all our results together into a single tsv. See `check
 
 ## Assembly quality
 
-DefenseFinder was developed for complete genomes. Obviously this is not the case for AllTheBacteria assemblies! And our list of samples also includes samples assessed as low-quality after running the `assembly-stats` pipeline (those results are available on OSF [here](https://osf.io/h7wzy/files/7t9qd)).
+DefenseFinder was developed for complete genomes. Obviously this is not the case for AllTheBacteria assemblies - be careful!
 
-We found that 653 samples did not have any defense systems detected, and we verified this with a rerun of DefenseFinder for these samples. The majority of these were low-quality (354/653, 54.2%) (HQ=F in OSF species calls), two orders of magnitude more than the low-quality proportion in samples where at least one system was detected (n=6909, 0.59%), highlighting that under-detection is likely a greater problem for more fragmented assemblies. However, we also noticed that low-quality samples sometimes had higher numbers of unique systems: the most defense systems observed in a high-quality sample was 33, but some low-quality samples had higher numbers up to 57. 
+In particular, our list of samples also includes samples assessed as low-quality after running the `assembly-stats` pipeline (those results are available on OSF [here](https://osf.io/h7wzy/files/7t9qd)). We found that 653 samples did not have any defense systems detected, and we verified this with a rerun of DefenseFinder for these samples. The majority of these were low-quality (354/653, 54.2%) (HQ=F in OSF species calls), two orders of magnitude more than the low-quality proportion in samples where at least one system was detected (n=6909, 0.59%), highlighting that under-detection is likely a greater problem for more fragmented assemblies. However, we also noticed that low-quality samples could have suspiciously high numbers of unique systems: the most defense systems observed in a high-quality sample was 33, but some low-quality samples had higher numbers (up to 57). 
 
 ## Acknowledgements
 
