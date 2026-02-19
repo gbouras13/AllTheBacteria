@@ -2,7 +2,7 @@ Hypothetical Protein Structures
 
 **Note: All structures available here have been integrated into the AlphaFold Database.**
 **For more detailed visual analysis and downloads, please see https://alphafold.ebi.ac.uk**
-**You cannot search the AFDB using the ATB/Bakta locus tags - see below for more informaiton on how to map the ATB/Bakta tags to AFDB accessions**
+**You cannot search the AFDB using the ATB/Bakta locus tags - see below for more information on how to map the ATB/Bakta tags to AFDB accessions**
 
 ## Preprocessing
 
